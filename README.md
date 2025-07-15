@@ -159,7 +159,7 @@ The `slapd.conf` file consists of:
 ```mermaid
 erDiagram
     USER {
-        string cn
+        string uid
         string cn
         string sn
         string mail
