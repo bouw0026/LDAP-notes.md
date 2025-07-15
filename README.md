@@ -70,7 +70,7 @@ erDiagram
     }
     ROOT ||--o{ ORGANIZATION : contains
     ORGANIZATION {
-        string ou=people
+        string ou
     }
     ORGANIZATION ||--o{ ORGANIZATIONAL_UNIT : contains
     ORGANIZATIONAL_UNIT {
