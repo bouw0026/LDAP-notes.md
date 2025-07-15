@@ -66,7 +66,7 @@ Think of the DIT as a tree-like structure:
 ```mermaid
 erDiagram
     ROOT {
-        string "dc=example,dc=com"
+        string dc
     }
     ROOT ||--o{ ORGANIZATION : contains
     ORGANIZATION {
