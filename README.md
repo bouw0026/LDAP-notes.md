@@ -66,11 +66,11 @@ Think of the DIT as a tree-like structure:
 ```mermaid
 erDiagram
     ROOT {
-        string dc
+        string dc=example,dc=com
     }
     ROOT ||--o{ ORGANIZATION : contains
     ORGANIZATION {
-        string o
+        string ou=people
     }
     ORGANIZATION ||--o{ ORGANIZATIONAL_UNIT : contains
     ORGANIZATIONAL_UNIT {
